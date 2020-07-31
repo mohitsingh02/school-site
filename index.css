@@ -1,14 +1,7 @@
 body{
-    overflow-x: hidden;
-    
+    overflow-x: hidden;   
 }
-.carousel{
-    width: 100vw;
-    height: 100vh;
-}
-.card{
-    float: left;
-}
+
 .dropdown-menu{
     background-color: rgba(255, 255, 255, .6);
     margin-top: 0px;
@@ -27,8 +20,7 @@ body{
     background-image: url(bgnum.jpeg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-     
+    background-repeat: no-repeat;    
 }
 .num{
     background-color: rgba(248, 18, 18, 0.2);
@@ -39,13 +31,13 @@ body{
    font-size: x-large;
 }
 .sbimg{
-    background-image: url(Koala6.jpg);
+    background-image: url(top.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 .num2{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .carousel-control-prev-icon{
     background-color: black;
@@ -53,4 +45,32 @@ body{
 .carousel-control-next-icon{
     background-color: black;
 }
-
+.abo{
+    background-color: rgb(245, 245, 245);
+}
+.con{
+    background-color: rgb(245, 245, 245);
+}
+.dbimg{
+    background-image: url(pl2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
+}
+.footer-bottom{
+    background-color: black;
+    color: white;
+}
+.footer-top{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.social{
+    font-size: x-large;
+}
+#link-design{
+    list-style: square;
+}
+a:hover{
+    color: red;
+}
