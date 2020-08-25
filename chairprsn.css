@@ -32,7 +32,8 @@ a:hover{
     color: red;
 }
 .pop{
-    padding-top: 40vh;
+    position: relative;
+    top: 50%;
     color: white;
 }
 .sbimg{
@@ -78,4 +79,10 @@ a:hover{
 }
 .num3{
     background-color: rgba(235, 13, 13, 0.616);
+}
+.rightMenu {
+    position:absolute;
+    float:right;
+    top: 0;
+    left: 172px;
 }
