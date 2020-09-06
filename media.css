@@ -1,0 +1,46 @@
+.zoom{
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s ease;
+}
+.compact-gallery .zoom:hover .image{
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+.image{
+    transition: 0.8s ease;
+}
+.bimg{
+    background-image: url(scimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 60vh;  
+}
+.num{
+    background-color: rgba(6, 2, 44, 0.76);
+    height: 60vh; 
+    background-position: center;
+}
+  .pop{
+      padding-top: 30vh;
+      color: white;
+  }
+.footer-bottom{
+    background-color: black;
+    color: white;
+}
+.footer-top{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.social{
+    font-size: x-large;
+}
+#link-design{
+    list-style: square;
+}
+a:hover{
+    color: red;
+}
