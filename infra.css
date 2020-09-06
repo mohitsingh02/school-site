@@ -1,9 +1,14 @@
-body{
-    overflow-x: hidden; 
+.zoom{
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s ease;
 }
-.jumbotron{
-    height: 60vh;
-    
+.compact-gallery .zoom:hover .image{
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+.image{
+    transition: 0.8s ease;
 }
 .bimg{
     background-image: url(scimg.jpg);
@@ -22,11 +27,7 @@ body{
       padding-top: 30vh;
       color: white;
   }
-  .detail-text{
-      background-color: rgba(192, 53, 53, 0.945);
-      color: white;
-  }
-  .footer-bottom{
+.footer-bottom{
     background-color: black;
     color: white;
 }
@@ -42,9 +43,4 @@ body{
 }
 a:hover{
     color: red;
-}
-.mission{
-    background-color: rgba(2, 2, 58, 0.918);
-    color: white;
-    text-align: center;
 }

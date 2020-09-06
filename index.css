@@ -16,6 +16,14 @@ body{
 .Cb{
     float: right;
 }
+.Cb:hover{
+    transform: translateY(-20px);
+    box-shadow: black;
+}
+.abimg:hover{
+    transform: translateY(-20px);
+    box-shadow: black;
+}
 .bimg{
     background-image: url(bgnum.jpeg);
     background-size: cover;
