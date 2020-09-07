@@ -1,0 +1,50 @@
+body{
+    overflow-x: hidden; 
+}
+.jumbotron{
+    height: 60vh;
+    
+}
+.bimg{
+    background-image: url(scimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 60vh;  
+}
+.num{
+    background-color: rgba(6, 2, 44, 0.76);
+    height: 60vh; 
+    background-position: center;
+}
+  .pop{
+      padding-top: 30vh;
+      color: white;
+  }
+  .detail-text{
+      background-color: rgba(192, 53, 53, 0.945);
+      color: white;
+  }
+  .footer-bottom{
+    background-color: black;
+    color: white;
+}
+.footer-top{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.social{
+    font-size: x-large;
+}
+#link-design{
+    list-style: square;
+}
+a:hover{
+    color: red;
+}
+.mission{
+    background-color: rgba(2, 2, 58, 0.918);
+    color: white;
+    text-align: center;
+}
