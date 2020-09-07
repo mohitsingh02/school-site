@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./sports.css">
-    <title>Photos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact US</title>
+    <script src="contact.js"></script>
 </head>
 
 <body>
@@ -112,73 +112,51 @@
       <div class="container-fluid bimg pr-0 pl-0">
         <div class="container-fluid num ">
           <div class="container pop">
-            <h1 class="display-4">Photo Gallery</h1>
+            <h1 class="display-4">Contact Us</h1>
           </div>
         </div>
       </div>
-    <div class="container-fluid text-center compact-gallery">
-        <div class="container-fluid mt-5 mb-5">
-            <div class="row ">
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3  zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                
-                <div class="col-md-6 col-lg-3 mt-3 zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 zoom">
-                    <a class="lightbox" href="hou.jpg">
-                        <img src="hou.jpg" class="img-fluid shadow-lg image" alt="scholl-img">
-                    </a>
-                </div>
-
+    <div class="container   my-4">
+        <h1>Contact Us</h1>
+        <form onsubmit="return fn1();" action="index.html">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input id="nam" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name" required>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Phone</label>
+                <input type="text" class="form-control" id="mob" placeholder="Enter Mobile No" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Tell Us about: </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button onclick="fn1()" class="btn btn-danger" type="submit">Submit</button>
+        </form>
     </div>
+    <div class="container">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+              <div class="col-sm embed-responsive embed-responsive-4by3">
+
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.2878925164036!2d79.53177201506223!3d29.244493662870667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09a5e580c0f8f%3A0x89fa5ebd8fcc4a8a!2sInspiration%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1599469725863!5m2!1sen!2sin" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="col-sm">
+                <h1>Scool Adress</h1>
+                <p><i class="fa fa-map-marker"></i> Delhi Highway,near faltu jagha,Meerut</p>
+                <p><i class="fa fa-phone"></i> Phone: +91 333 12 68 347</p>
+                <p><i class="fa fa-envelope"></i> Email: <a href="#">hello@domain.com</a>
+              </div>
+              
+            </div>
+          </div>  
+    </div>
+    
     <footer>
         <div class="footer-top mt-0 pt-3">
             <div class="container">
@@ -234,22 +212,19 @@
             <p class="text-center mb-0">Copyright 2020-@-Demo Public School -created by One Touch solutions</p>
         </div>
     </footer>
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
-    </script>
-
+    
 </body>
 
 </html>
