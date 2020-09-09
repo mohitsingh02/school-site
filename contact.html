@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="./contact.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact US</title>
     <script src="contact.js"></script>
 </head>
@@ -25,7 +25,7 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-    
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -63,15 +63,33 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Event & Celebration
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Events</a>
-                            <a class="dropdown-item" href="#">Celebration</a>
-                            <a class="dropdown-item" href="#">Tips & Excursions</a>
-                        </div>
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Event & Celebration </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item dropdown-toggle" href="#"> Event </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Annual Function</a></li>
+                                    <li><a class="dropdown-item" href="">Science Fair</a></li>
+                                    <li><a class="dropdown-item " href="">Tournament</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item dropdown-toggle" href="#">Celebrations </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Rakhi</a></li>
+                                    <li><a class="dropdown-item" href="">Janamasthami</a></li>
+                                    <li><a class="dropdown-item " href="">Dushera</a></li>
+                                    <li><a class="dropdown-item " href="">Rangoli</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item dropdown-toggle" href="#"> Trips & Excursions </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Educational Tour</a></li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -95,30 +113,31 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="contact.html">Contact Us</a>
                             <a class="dropdown-item" href="fee.html">Fee Structure</a>
-                            
+
                         </div>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Online Class</a>
                     </li>
                 </ul>
-                
+
             </div>
         </nav>
     </header>
-      <div class="container-fluid bimg pr-0 pl-0">
+    <div class="container-fluid bimg pr-0 pl-0">
         <div class="container-fluid num ">
-          <div class="container pop">
-            <h1 class="display-4">Contact Us</h1>
-          </div>
+            <div class="container pop">
+                <h1 class="display-4">Contact Us</h1>
+            </div>
         </div>
-      </div>
+    </div>
     <div class="container   my-4">
         <h1>Contact Us</h1>
         <form onsubmit="return fn1();" action="index.html">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input id="nam" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name" required>
+                <input id="nam" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name"
+                    required>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Phone</label>
@@ -139,21 +158,24 @@
     <div class="container">
         <div class="container pt-5 pb-5">
             <div class="row">
-              <div class="col-sm embed-responsive embed-responsive-4by3">
+                <div class="col-sm embed-responsive embed-responsive-4by3">
 
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.2878925164036!2d79.53177201506223!3d29.244493662870667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09a5e580c0f8f%3A0x89fa5ebd8fcc4a8a!2sInspiration%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1599469725863!5m2!1sen!2sin" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              </div>
-              <div class="col-sm">
-                <h1>Scool Adress</h1>
-                <p><i class="fa fa-map-marker"></i> Delhi Highway,near faltu jagha,Meerut</p>
-                <p><i class="fa fa-phone"></i> Phone: +91 333 12 68 347</p>
-                <p><i class="fa fa-envelope"></i> Email: <a href="#">hello@domain.com</a>
-              </div>
-              
+                    <iframe class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.2878925164036!2d79.53177201506223!3d29.244493662870667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09a5e580c0f8f%3A0x89fa5ebd8fcc4a8a!2sInspiration%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1599469725863!5m2!1sen!2sin"
+                        width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-sm">
+                    <h1>Scool Adress</h1>
+                    <p><i class="fa fa-map-marker"></i> Delhi Highway,near faltu jagha,Meerut</p>
+                    <p><i class="fa fa-phone"></i> Phone: +91 333 12 68 347</p>
+                    <p><i class="fa fa-envelope"></i> Email: <a href="#">hello@domain.com</a>
+                </div>
+
             </div>
-          </div>  
+        </div>
     </div>
-    
+
     <footer>
         <div class="footer-top mt-0 pt-3">
             <div class="container">
@@ -191,14 +213,14 @@
                                 </ul>
                             </div>
                             <div class="col-md-6 text-center social">
-    
+
                                 <h3>Follow us</h3>
                                 <p>
                                     <a href="#"><i class="fa fa-facebook"></i></a> <br>
                                     <a href="#"><i class="fa fa-twitter"></i></a> <br>
                                     <a href="#"><i class="fa fa-instagram"></i></a> <br>
                                 </p>
-    
+
                             </div>
                         </div>
                     </div>
@@ -209,7 +231,7 @@
             <p class="text-center mb-0">Copyright 2020-@-Demo Public School -created by One Touch solutions</p>
         </div>
     </footer>
-   
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -221,7 +243,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(document).on('click', '.dropdown-menu', function (e) {
+                e.stopPropagation();
+            });
+
+            if ($(window).width() < 992) {
+                $('.dropdown-menu a').click(function (e) {
+                    e.preventDefault();
+                    if ($(this).next('.submenu').length) {
+                        $(this).next('.submenu').toggle();
+                    }
+                    $('.dropdown').on('hide.bs.dropdown', function () {
+                        $(this).find('.submenu').hide();
+                    })
+                });
+            }
+
+
+        }); // jquery end
+    </script>
+
 </body>
 
 </html>

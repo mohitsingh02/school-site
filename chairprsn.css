@@ -1,88 +1,127 @@
-body{
-    overflow-x: hidden; 
+body {
+    overflow-x: hidden;
 }
-.bimg{
+
+.bimg {
     background-image: url(scimg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;  
-    height: 60vh;  
+    background-repeat: no-repeat;
+    height: 60vh;
 }
-.num{
+
+.num {
     background-color: rgba(6, 2, 44, 0.76);
-    height: 60vh; 
+    height: 60vh;
     background-position: center;
 }
-.footer-bottom{
+
+.footer-bottom {
     background-color: black;
     color: white;
 }
-.footer-top{
+
+.footer-top {
     background-color: rgb(48, 47, 47);
     color: white;
 }
-.social{
+
+.social {
     font-size: x-large;
 }
-#link-design{
+
+#link-design {
     list-style: square;
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-.pop{
+
+.pop {
     position: relative;
     top: 50%;
     color: white;
 }
-.sbimg{
+
+.sbimg {
     background-image: url(scimg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;  
-   
+    background-repeat: no-repeat;
+
 }
-.snum{
+.snum {
     background-color: rgba(255, 255, 255, 0.884);
-    
+
 }
-.dash{
+
+.dash {
     background-color: rgb(168, 97, 5);
     height: 5px;
     border-radius: 10px;
     width: 10vw;
-    
+
 }
-.cpd{
+.cpd {
     padding-top: 10vh;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 5vh;
-   
+
 }
-.tbimg{
+.tbimg {
     background-image: url(top.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-.num2{
+
+.num2 {
     background-color: rgba(255, 255, 255, 0.7);
 }
-.dbimg{
+
+.dbimg {
     background-image: url(pl2.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
-.num3{
+
+.num3 {
     background-color: rgba(235, 13, 13, 0.616);
 }
-.rightMenu {
-    position:absolute;
-    float:right;
-    top: 0;
-    left: 172px;
+
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .dropdown-menu li {
+        position: relative;
+    }
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
 }
