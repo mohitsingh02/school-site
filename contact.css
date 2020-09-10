@@ -50,6 +50,10 @@ a:hover{
     color: white;
     text-align: center;
 }
+.dropdown-menu{
+    margin: 0px;
+    padding: 0px;
+}
 @media (min-width: 992px) {
     .dropdown-menu .dropdown-toggle:after {
         border-top: .3em solid transparent;
@@ -78,6 +82,9 @@ a:hover{
         background-color: #f1f1f1
     }
     .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+    .navbar-nav>li:hover>.dropdown-menu {
         display: block;
     }
 }
